@@ -1,4 +1,9 @@
 h2:hover{
-    color: blueviolet;
-    font-size:26px; /*muda tamanho da fonte*/
+    color: darkgreen;
+    font-size:25px; /*muda tamanho da fonte*/
+} 
+
+h1{
+    color: darkgrey;
+    background-color: darkgreen;
 }
