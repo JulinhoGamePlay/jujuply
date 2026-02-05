@@ -2,3 +2,10 @@ h2:hover{
     color: blueviolet;
     font-size:26px; /*muda tamanho da fonte*/
 }
+
+/* quero que quando colocar o mouse em cima da imagem, mude de imagem para a PhantomBBJumpscare.webp em tela cheia, pra dar um sustinho*/
+img:hover{
+    content: url(PhantomBBJumpscare.webp);
+    width: 100%;
+    height: 100%;
+}
