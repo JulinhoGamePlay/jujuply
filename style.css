@@ -1,6 +1,11 @@
 h2:hover{
-    color: blueviolet;
-    font-size:26px; /*muda tamanho da fonte*/
+    color: darkgreen;
+    font-size:25px; /*muda tamanho da fonte*/
+} 
+
+h1{
+    color: darkgrey;
+    background-color: darkgreen;
 }
 
 /* quero que quando colocar o mouse em cima da imagem, mude de imagem para a PhantomBBJumpscare.webp em tela cheia, pra dar um sustinho*/
