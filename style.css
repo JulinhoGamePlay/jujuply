@@ -22,3 +22,9 @@ img:hover{
 img{
     border-radius: 20px;
 }
+
+body{
+    background-image: url(PhantomBBJumpscare.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
