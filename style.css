@@ -1,3 +1,4 @@
+
 /* ===== ESTILO DO H1 (título principal) ===== */
 h1 {
     color: darkgrey;
@@ -13,6 +14,14 @@ h2:hover {
     /* color: muda a cor do texto */
     font-size: 25px;
     /* font-size: muda o tamanho da fonte */
+}
+
+a:hover {
+    /* hover: quando passa o mouse em cima */
+    color: deeppink;
+    /* color: muda a cor do texto */
+    cursor: url('recursos/cursor.cur'), url('recursos/cursor.png'), pointer !important;
+    /* cursor: muda o ícone do cursor */
 }
 
 /* ===== ESTILO PADRÃO DAS IMAGENS ===== */
