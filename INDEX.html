@@ -1,37 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juju play</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+<!-- lang="pt-BR" define o idioma como português do Brasil -->
 
-<body>
-    <section>
-        <h1>O SITE É DA JU</h1>
-        <h2>Esse site é focado em loucuras da minha cabeça</h2>
-        <h3>Hoje 28.01.2026 meu primeiro contato com esse tipo de coisa</H3>
-        <p>oi <b>jovem</b> que ve meu <i>site</i>,tudo bem?</p>
-        <img src="R.jpg" alt="foto do daiji, gatinho do filme Suzume" width="300" height="470">
-        <p>O menino que fez flexão na sala e me lembrou do meme. <em>AS MINA AE TIO</em></p>
-        <a href="google.com">oiii galerinha, olha o daijin, clique aqui.</a>
-        <p>Aqui veremos outro gato fofinho<a href="/SEGUNDO.html"> se prepare para TAMHANHA FOFURA</a></p>
-    </section>
+    <head>
+        <!-- HEAD: configurações sobre a página (não aparecem no site) -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juju Play</title>
+        <!-- Título que aparece na aba do navegador -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Conecta o arquivo CSS para estilizar o site -->
+    </head>
 
-    <section>
-        <h1 class="julin">O SITE É DA JU</h1>
-        <h2>Esse site é focado em loucuras da minha cabeça</h2>
-        <h3>Hoje 28.01.2026 meu primeiro contato com esse tipo de coisa</H3>
-        <p>oi <b>jovem</b> que ve meu <i>site</i>,tudo bem?</p>
-        <img src="R.jpg" alt="foto do daiji, gatinho do filme Suzume" width="300" height="470">
-        <p>O menino que fez flexão na sala e me lembrou do meme. <em>AS MINA AE TIO</em></p>
-        <a href="google.com">oiii galerinha, olha o daijin, clique aqui.</a>
-        <p>Aqui veremos outro gato fofinho<a href="/SEGUNDO.html"> se prepare para TAMHANHA FOFURA</a></p>
+    <body>
+        <!-- BODY: tudo que aparece na página fica aqui dentro -->
+
+        <!-- ========== SEÇÃO 1: APRESENTAÇÃO ========== -->
+        <section>
+            <!-- H1, H2, H3: títulos de diferentes tamanhos -->
+            <h1>O SITE É DA JU</h1>
+            <h2>Esse site é focado em loucuras da minha cabeça</h2>
+            <h3>Hoje 28.01.2026 - Meu primeiro contato com esse tipo de coisa</h3>
+
+            <!-- P: cria um parágrafo de texto -->
+            <p>
+                Oi <b>jovem</b> que vê meu <i>site</i>, tudo bem?
+            </p>
+            <!-- B: deixa o texto em negrito -->
+            <!-- I: deixa o texto em itálico -->
+
+            <!-- IMG: coloca uma imagem na página -->
+            <img src="/recursos/daiji.jpg" alt="Foto do Daiji, gatinho do filme Suzume">
+            <!-- src: onde está a imagem -->
+            <!-- alt: descrição da imagem -->
+            <!-- Dica: defina o height e o width da imagem no CSS -->
+
+            <!-- P: parágrafo -->
+            <p>
+                O menino que fez flexão na sala e me lembrou do meme. <em>AS MINA AE TIO</em>
+            </p>
+            <!-- EM: ênfase (parecido com itálico) -->
+
+            <!-- A: link para ir pra outro lugar (Pode ser interno ou externo) (Dica: Coloca dentro de um <p>) -->
+            <p>Oiii Galerinha!
+                <a href="https://www.google.com/search?sca_esv=cc509cf985bd090a&sxsrf=ANbL-n7yC-ovGZGy1lsMJwbywQL1D8Ouxg:1770502211358&udm=2&fbs=ADc_l-acAb_3MMOAUx0zmbUpgBqRiigBgL2I_pgQa-94zvB054Dys3s2x_Qm_GJcU2DlSXjiZk_2O2KlPuox12P9xwHqLLgha43_Fm7hqhNNykyn4ZPlpFrgqFn1dWYoNvDC3nseUVPrumRiXCr2yjKqPD1welYi5DLmY8My7hXZgrDC34Ip1OtlNUxGRx4-zda81R4Ews3n0lz3Xp2g-UglAF6YfJ9hgw&q=daijin+suzume&sa=X&ved=2ahUKEwif94bbssiSAxVhrpUCHe0iDKQQtKgLegQIFxAB&biw=514&bih=640&dpr=1">Aqui</a>
+            tem mais fotos do Daiji :3
+            </p>
+            <!-- href: endereço do link -->
+
+            <!-- P: parágrafo com link interno -->
+            <p>
+                Aqui veremos outro gato fofinho: 
+                <a href="/SEGUNDO.html">se prepare para TAMANHA FOFURA</a>
+            </p>
+
+        </section>
+
+        <!-- HR: linha horizontal (útil para separar conteúdos) -->
+        <hr>
+
+        <!-- ========== SEÇÃO 2: LISTAS ========== -->
+        <section class="julin">
+            <!-- class: serve para estilizar com CSS apenas tags específicas com esse nome -->
+
+            <h2>Coisas que estou aprendendo</h2>
+
+            <!-- OL: lista ordenada (com números) -->
             <ol>
-                <li>coisa que eu não tenho ideia</li>
-                <li>bhjkhk</li>
+                <li>HTML básico</li>
+                <li>CSS básico</li>
+                <li>Imagens</li>
+                <li>Listas</li>
+                <li>Links</li>
             </ol>
-    </section>
-</body>
+            <!-- LI: item da lista -->
+
+            <h2>Coisas aleatórias</h2>
+
+            <!-- UL: lista não ordenada (com bolinhas) -->
+            <ul>
+                <li>Coisa que eu não tenho ideia</li>
+                <li>bhjkhk</li>
+                <li>Mais uma coisa aqui</li>
+            </ul>
+
+            <h2>Outras tags interessantes:</h2>
+            
+            <!-- DL: lista de definições (termo e descrição) -->
+            <dl>
+                <!-- DT: termo a ser definido -->
+                <!-- DD: definição/descrição do termo -->
+            
+                <dt><u>Daiji</u></dt>
+                <dd>é o gatinho mais fofo do mundo</dd>
+                <!-- U: sublinhado -->
+                <br>
+            
+                <dt><s>Eu não gosto de gatos</s></dt>
+                <dd>Isso é mentira!</dd>
+                <!-- S: texto riscado -->
+                <br>
+            
+                <dt><small>textinho pequeno</small></dt>
+                <dd>e muito fofo</dd>
+                <!-- SMALL: texto pequeno -->
+                <br>
+            
+                <dt>Fofura elevada ao <sup>infinito</sup></dt>
+                <dd>Nível máximo de fofura</dd>
+                <!-- SUP: sobrescrito (texto em cima) -->
+                <br>
+            
+                <dt>Gatos são muito <sub>fofos</sub></dt>
+                <dd>Verdade absoluta</dd>
+                <!-- SUB: subscrito (texto embaixo) -->
+                <br>
+            
+                <dt><abbr title="Fodones">Enrique</abbr></dt>
+                <dd>O nome completo é incrível</dd>
+                <!-- ABBR: abreviação (mostra significado ao passar o mouse) -->
+            </dl>
+        </section>
+    </body>
 </html>

@@ -1,30 +1,34 @@
-h2:hover{
-    color: darkgreen;
-    font-size:25px; /*muda tamanho da fonte*/
-} 
-
-h1{
+/* ===== ESTILO DO H1 (título principal) ===== */
+h1 {
     color: darkgrey;
+    /* color: cor do texto */
     background-color: darkgreen;
+    /* background-color: cor de fundo do elemento */
 }
 
-/* quero que quando colocar o mouse em cima da imagem, mude de imagem para a PhantomBBJumpscare.webp em tela cheia, pra dar um sustinho*/
-img:hover{
-    content: url(PhantomBBJumpscare.webp);
-    width: 100%;
-    height: 100%;
+/* ===== ESTILO DO H2 (subtítulo) ===== */
+h2:hover {
+    /* hover: aplica o estilo apenas quando passa o mouse em cima */
+    color: darkgreen;
+    /* color: muda a cor do texto */
+    font-size: 25px;
+    /* font-size: muda o tamanho da fonte */
 }
 
-.julin{
-    color: black;
-}
-
-img{
+/* ===== ESTILO PADRÃO DAS IMAGENS ===== */
+img {
     border-radius: 20px;
+    /* border-radius: arredonda os cantos da imagem (quanto maior o número, mais arredondado) */
+}
+img:hover {
+    /* hover: quando passa o mouse em cima */
+    content: url(/recursos/jumpscare.webp);
+    /* content: troca a imagem */
 }
 
-body{
-    background-image: url(PhantomBBJumpscare.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
+/* ===== ESTILO DA CLASS "julin" ===== */
+.julin {
+    /* . (ponto) antes do nome indica que é uma class */
+    color: black;
+    /* cor do texto dos elementos com class="julin" */
 }
