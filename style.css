@@ -24,6 +24,10 @@ img:hover {
     /* hover: quando passa o mouse em cima */
     content: url(/recursos/jumpscare.webp);
     /* content: troca a imagem */
+    height: 100vw;
+    /* height: muda a altura da imagem */
+    width: 100vw;
+    /* width: muda a largura da imagem */
 }
 
 /* ===== ESTILO DA CLASS "julin" ===== */
