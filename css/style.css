@@ -29,19 +29,16 @@ img {
     border-radius: 20px;
     /* border-radius: arredonda os cantos da imagem (quanto maior o número, mais arredondado) */
 }
-img:hover {
-    /* hover: quando passa o mouse em cima */
-    content: url(/recursos/jumpscare.webp);
-    /* content: troca a imagem */
-    height: 100vw;
-    /* height: muda a altura da imagem */
-    width: 100vw;
-    /* width: muda a largura da imagem */
-}
+
 
 /* ===== ESTILO DA CLASS "julin" ===== */
 .julin {
     /* . (ponto) antes do nome indica que é uma class */
     color: black;
     /* cor do texto dos elementos com class="julin" */
+}
+
+.cansada{
+    color: darkslategrey;
+    background-color: darkseagreen;
 }
